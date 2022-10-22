@@ -120,6 +120,11 @@ button.zero {
   background-color: #e7fad7;
   color: #000;
 }
+.calculator button#equal,
+#backspace {
+  background-color: #d3f7b5;
+  color: #000;
+}
 
 .calculator button.btn-operator {
   background-color: #d3f7b5;
