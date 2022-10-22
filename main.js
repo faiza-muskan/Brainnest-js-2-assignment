@@ -76,7 +76,7 @@ const operate = (num1, num2, op) => {
   } else if (op === "%") {
     result = percentage(num1, num2);
   }
-  return parseFloat(result.toFixed(3));
+  return parseFloat(result.toFixed(9));
 };
 
 const triggerOperation = () => {
